@@ -23,6 +23,9 @@ import com.example.demo.entity.Employee;
 	{
 		emp.deleteById(id);
 	}
-	
+	public Employee update(int id, Employee e)
+	{
+		return emp.save(e);
+	}
 	}
 
